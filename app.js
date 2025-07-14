@@ -3,7 +3,7 @@ const cors = require("cors");
 const express = require("express");
 const app = express();
 const router = require("./routes/userRoutes.js");
-const allowedOrigins = ["http://localhost:5173"];
+const allowedOrigins = ["https://kelvtech-web.vercel.app"];
 //middleware configuration;
 app.use(cookieParser());
 app.use(express.json());
